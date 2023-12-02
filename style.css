@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+} /* thank you w3schools */
 body {
   margin: 0;
   box-sizing: border-box;
@@ -37,7 +40,6 @@ nav {
   height: 50px;
   padding: 20px;
   margin: 40px;
-  margin-left: ;
   justify-content: space-evenly;
 }
 .boxmid {
@@ -65,6 +67,7 @@ h3 {
   position: fixed;
   top: 10px;
   color: white;
+  padding-top: 1rem;
 }
 h4 {
   color: white;
@@ -73,6 +76,10 @@ h4 {
   color: white;
   font-size: 24px;
   font-weight: 100;
+}
+.button {
+  background-color: transparent;
+  font-family: "Orbitron", sans-serif;
 }
 .secondbit {
   color: white;
@@ -88,4 +95,8 @@ h4 {
   border: white 1px solid;
   padding: 15px;
   padding-right: 60px;
+}
+.border:hover {
+  background-color: white;
+  color: black;
 }
