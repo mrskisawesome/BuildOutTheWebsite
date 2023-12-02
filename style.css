@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   font-family: "Orbitron", sans-serif; /* I fond this font on Google fonts and imported it - Ed helped me! */
   color: white; /* I don't understand why some of the text is not white as surely this is the parent*/
-  text-decoration: none ;
+  text-decoration: none;
 }
 nav {
   z-index: 1;
@@ -37,11 +37,12 @@ nav {
   height: 50px;
   padding: 20px;
   margin: 40px;
+  margin-left: ;
   justify-content: space-evenly;
 }
 .boxmid {
   position: absolute;
-  width: 400px;
+  width: 900px;
   height: 100px;
   margin-left: 15px;
   align-items: left;
@@ -53,11 +54,11 @@ nav {
 h1 {
   position: fixed;
   top: 0px;
-  left: 2px;
+  left: 0px;
   color: inherit;
   font-size: 2rem;
 }
-h2{ 
+h2 {
   color: white;
 }
 h3 {
@@ -72,13 +73,11 @@ h4 {
   color: white;
   font-size: 24px;
   font-weight: 100;
-  
 }
 .secondbit {
   color: white;
   font-size: 36px;
   font-weight: bolder;
-  
 }
 .link-style {
   font-weight: lighter;
@@ -87,5 +86,6 @@ h4 {
 }
 .border {
   border: white 1px solid;
-  padding: 10px;
-}/*
+  padding: 15px;
+  padding-right: 60px;
+}
