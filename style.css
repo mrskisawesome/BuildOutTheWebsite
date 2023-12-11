@@ -100,3 +100,23 @@ h4 {
   background-color: white;
   color: black;
 }
+@media (max-width: 600px) {
+  .container1 {
+    display: grid;
+
+    width: 30px;
+  }
+  .box {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    display: flex;
+    flex-flow: column-wrap;
+    width: 30%;
+  }
+  .boxmid {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+}
